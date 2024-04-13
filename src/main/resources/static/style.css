@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1
+{
+    height: 100%;
+}
+:root
+{
+    --animate-duration: 1500ms;
+}
+    /* STYLES FOR LAYOUT !!!! */
+.nav-main{
+    background-color: aliceblue;
+    box-shadow: 0px 5px 5px #CAEFFA;
+}
+.nav-element
+{
+    padding: 10px 0;
+}
+/* STYLES FOR LAYOUT  END!!!!END */
+
+/* STYLES FOR LANDING PAGE */
+.slider-main
+{
+    height: 700px
+}
+.slider-1
+{
+    color: dodgerblue;
+   vertical-align: auto;
+    background-image: url("/static/images/kelly-sikkema-Kl1gC0ve620-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-2{
+    color: dodgerblue;
+    vertical-align: center;
+    background-image: url("/static/images/matthieu-petiard-Pf6e3o0GL4M-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-3{
+    color: dodgerblue;
+    vertical-align: center;
+    background-image: url("/static/images/samuel-scrimshaw-rJc1RioyERQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* STYLES FOR LANDING END !!!*/
+
+
+/* STYLES FOR ABOUT US */
+
+.about{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.about-image{
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    width: 40%;
+    height: 55%;
+    background-image: url("/static/images/christin-hume-mfB1B1s4sMc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:5px solid white;
+    left: 50px;
+    top: 30px;
+
+
+}
+
+.about-text
+{
+    width: 60%;
+    height: 70%;
+    background-color: #3A50F9;
+    margin-top: 50px;
+    padding-right: 50px;
+    z-index: 0;
+}
+
+.about-p{
+    line-height: 30px;
+}
+
+
